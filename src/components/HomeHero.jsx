@@ -15,7 +15,7 @@ const HomeHero = () => {
       {/* carousel */}
       <div className="relative md:mx-[13%]">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators hidden xl:flex xl:ml-[-80px] xl:justify-start">
+          <ol class="carousel-indicators xl:flex xl:ml-[-80px] xl:justify-start">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
               01
             </li>
