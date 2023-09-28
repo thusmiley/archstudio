@@ -278,4 +278,148 @@
       background-size: cover;
     }
   }
+  .seraph {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-seraph.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .seraph {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-seraph.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .seraph {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-seraph.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .eebox {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-eebox.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .eebox {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-eebox.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .eebox {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-eebox.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .federal {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-federal.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .federal {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-federal.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .federal {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-federal.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .edelweiss {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-edelweiss.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .edelweiss {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-edelweiss.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .edelweiss {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-edelweiss.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .netcry {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-netcry.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .netcry {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-netcry.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .netcry {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-netcry.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .hypers {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-hypers.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .hypers {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-hypers.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .hypers {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-hypers.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .sxiv {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-sxiv.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .sxiv {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-sxiv.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .sxiv {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-sxiv.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .trinity {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-trinity.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .trinity {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-trinity.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .trinity {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-trinity.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  .paramour {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/mobile/image-paramour.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  @screen md {
+    .paramour {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/tablet/image-paramour.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
+  @screen xl {
+    .paramour {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url("/src/assets/portfolio/desktop/image-paramour.jpg") no-repeat center top;
+      background-size: cover;
+    }
+  }
 }/*# sourceMappingURL=index.css.map */
