@@ -17,8 +17,8 @@ Arch Studio website
 
 ### Links
 
-- Git URL: 
-- Live Site URL: 
+- Git URL: https://github.com/thusmiley/archstudio.git
+- Live Site URL: https://archstudio-omega.vercel.app/
 
 ### Built with
 
@@ -26,6 +26,7 @@ Arch Studio website
 - SASS
 - Flexbox
 - CSS Grid
+- Bootstrap carousel
 - Mobile-first workflow
 - Tailwind
 - React (Vite)
