@@ -1,0 +1,223 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+// base 
+@layer base 
+    *
+        box-sizing: border-box
+        margin: 0
+        padding: 0
+    
+    body
+        font-synthesis: none
+        text-rendering: optimizeLegibility
+        scroll-behavior: smooth
+        @apply font-spartan text-darkGrey
+
+    #bootstrap-overrides a 
+        transition: 0.3s ease-in-out
+        text-decoration: none
+        color: inherit
+        font-size: inherit
+
+    #bootstrap-overrides ul
+        list-style-type: none 
+        list-style-position: inside
+        padding-left: 0
+
+    input,
+    textarea,
+    button,
+    select,
+    a 
+        -webkit-tap-highlight-color: transparent
+
+    // headings and paragraph
+    #bootstrap-overrides .heading1, #bootstrap-overrides .heading2, #bootstrap-overrides .heading3, #bootstrap-overrides .heading4, #bootstrap-overrides .heading5, #bootstrap-overrides .heading6, #bootstrap-overrides a
+        @apply font-bold font-spartan
+
+    #bootstrap-overrides .heading1
+        font-size: 48px
+        line-height: 48px
+        letter-spacing: -1.2px
+        @screen md
+            font-size: 96px
+            line-height: 80px
+            letter-spacing: -2px
+
+    #bootstrap-overrides .heading2
+        font-size: 48px
+        line-height: 52px
+        letter-spacing: -1.71px
+        @apply text-darkBlue
+        @screen md
+            font-size: 72px
+            line-height: 64px
+            letter-spacing: -2px
+
+    #bootstrap-overrides .heading3
+        font-size: 32px
+        line-height: 40px
+        @apply text-white
+
+    #bootstrap-overrides .heading4
+        font-size: 250px
+        line-height: 200px
+        letter-spacing: -5px
+        @apply text-white/50
+
+    #bootstrap-overrides .paragraph
+        font-size: 18px
+        line-height: 24px
+        @apply font-spartan
+
+// components
+@layer components
+    #bootstrap-overrides .cta
+        padding: 25px 35px
+        @apply font-bold text-[18px] leading-[25px] bg-darkBlue inline-flex items-center
+
+    #bootstrap-overrides .cta:hover
+        @apply bg-darkGrey
+
+    .tag
+        writing-mode: vertical-rl
+        text-orientation: mixed
+
+    // form components
+    input, textarea
+        background: transparent
+        border-bottom: 1px solid white
+        padding-bottom: 16px
+        margin-bottom: 38px
+        width: 100%
+        outline: none
+        -webkit-border-radius: 0
+        padding-left: 14px
+        caret: white
+        // @apply invalid:[&:not(:placeholder-shown):not(:focus)]:border-lightCoral
+
+    input, textarea, textarea::placeholder, input::placeholder
+        color: white
+        font-size: 15px
+        line-height: 25px
+        letter-spacing: -0.12px
+
+    input::placeholder, textarea::placeholder
+        opacity: 0.6
+        // @apply invalid:[&:not(:placeholder-shown):not(:focus)]:text-lightCoral
+
+    input:focus, textarea:focus
+        border-bottom: 1px solid #79C8C7
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active 
+        transition: background-color 5000000s ease-in-out 0s
+        -webkit-text-fill-color: white
+        background-clip: content-box !important
+
+    .error
+        // @apply text-lightCoral text-left hidden
+        font-style: italic
+        margin: -35px 0 17px 14px
+        font-size: 10px
+
+// utitlities
+@layer utilities
+    .socials svg:hover path
+        animation-duration: 300s
+
+    .fadein-left 
+        animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+
+    @keyframes slide-left 
+        0% 
+            -webkit-transform: translateX(100px)
+            transform: translateX(100px)
+        100% 
+            -webkit-transform: translateX(0)
+            transform: translateX(0)
+
+    // backgrounds 
+    .home-hero-bg-paramour
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/mobile/image-hero-paramour.jpg') no-repeat center center
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/tablet/image-hero-paramour.jpg') no-repeat center center
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/desktop/image-hero-paramour.jpg') no-repeat center center
+            background-size: cover
+
+    .home-hero-bg-seraph
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/mobile/image-hero-seraph.jpg') no-repeat center center
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/tablet/image-hero-seraph.jpg') no-repeat center center
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/desktop/image-hero-seraph.jpg') no-repeat center center
+            background-size: cover
+
+    .home-hero-bg-federal
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/mobile/image-hero-federal.jpg') no-repeat center center
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/tablet/image-hero-federal.jpg') no-repeat center center
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/desktop/image-hero-federal.jpg') no-repeat center center
+            background-size: cover
+
+    .home-hero-bg-trinity
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/mobile/image-hero-trinity.jpg') no-repeat center center
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/tablet/image-hero-trinity.jpg') no-repeat center center
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/desktop/image-hero-trinity.jpg') no-repeat center center
+            background-size: cover
+
+    .home-small-team-bg
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/mobile/image-small-team.jpg') no-repeat center center
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/tablet/image-small-team.jpg') no-repeat center center
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/assets/home/desktop/image-small-team.jpg') no-repeat center center
+            background-size: cover
+
+    .delSol
+        background: url('/src/assets/portfolio/mobile/image-del-sol.jpg') no-repeat center top
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/tablet/image-del-sol.jpg') no-repeat center top
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/desktop/image-del-sol.jpg') no-repeat center top
+            background-size: cover
+
+    .b
+        background: url('/src/assets/portfolio/mobile/image-228b.jpg') no-repeat center top
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/tablet/image-228b.jpg') no-repeat center top
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/desktop/image-228b.jpg') no-repeat center top
+            background-size: cover
+
+    .prototype
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/mobile/image-prototype.jpg') no-repeat center top
+        background-size: cover
+        @screen md
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/tablet/image-prototype.jpg') no-repeat center top
+            background-size: cover
+        @screen xl
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.5)), url('/src/assets/portfolio/desktop/image-prototype.jpg') no-repeat center top
+            background-size: cover
