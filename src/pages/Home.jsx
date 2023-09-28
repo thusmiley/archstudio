@@ -76,7 +76,7 @@ const Home = () => {
           <div className="space-y-6 xl:flex xl:items-center xl:justify-between xl:space-y-0 xl:space-x-[30px]">
             {projects.map((project) => (
               <div
-                className={`relative h-[240px] pl-6 pb-6 ${project.id}  flex flex-col justify-end cursor-pointer hover:grayscale delay-150 md:pl-10 md:pb-10 xl:h-[560px] xl:w-full xl:object-contain xl:object-center`}
+                className={`relative h-[240px] pl-6 pb-6 ${project.id}  flex flex-col justify-end cursor-default hover:grayscale delay-150 md:pl-10 md:pb-10 xl:h-[560px] xl:w-full xl:object-contain xl:object-center`}
               >
                 <h3 className="heading3">{project.name}</h3>
                 <a href="/portfolio">
