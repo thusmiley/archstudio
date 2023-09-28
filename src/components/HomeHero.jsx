@@ -79,7 +79,7 @@ const HomeHero = () => {
                 Trinity Bank <br />
                 Tower
               </h1>
-              <p className="paragraph mt-[11px] mb-[90px] md:mb-[41px] xl:max-w-[445px]">
+              <p className="paragraph mt-[11px] mb-[90px] backdrop-blur-sm md:mb-[41px] xl:max-w-[445px]">
                 Trinity Bank challenged us to make a concept for a 84 story building located in the middle of a city with a high earthquake frequency. For this project we used
                 curves to blend design and stability to meet our objectives.
               </p>
