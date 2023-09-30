@@ -69,7 +69,7 @@ const Portfolio = () => {
       {/* page tag */}
       <div className="hidden md:flex absolute top-0 left-[5%] flex-col items-center justify-center z-20 ">
         <img src={verticalLine} alt="vertical line" className="w-[1px] h-[104px] object-contain" />
-        <span className="text-lightGrey paragraph tracking-[18px] tag mt-12">HOME</span>
+        <span className="text-lightGrey paragraph tracking-[18px] tag mt-12">PORTFOLIO</span>
       </div>
 
       {/* projects */}
@@ -78,7 +78,7 @@ const Portfolio = () => {
           <div
             className={`relative h-[240px] pl-6 pb-6 ${project.id}  flex flex-col justify-end cursor-default hover:grayscale delay-150 md:pl-10 md:pb-10 xl:h-[560px] xl:w-full xl:object-contain xl:object-center`}
           >
-            <h3 className="heading3 max-w-[220px] md:max-w-full xl:max-w-[220px] 2xl:max-w-full">{project.name}</h3>
+            <h3 className="heading3 text-white max-w-[220px] md:max-w-full xl:max-w-[220px] 2xl:max-w-full">{project.name}</h3>
             <p className="text-white paragraph font-normal mt-0">{project.date}</p>
             <h4 className="hidden md:block heading4 absolute bottom-0 right-4 xl:top-10 xl:right-[-10px]">{project.num}</h4>
           </div>

@@ -78,7 +78,7 @@ const Home = () => {
               <div
                 className={`relative h-[240px] pl-6 pb-6 ${project.id}  flex flex-col justify-end cursor-default hover:grayscale delay-150 md:pl-10 md:pb-10 xl:h-[560px] xl:w-full xl:object-contain xl:object-center`}
               >
-                <h3 className="heading3">{project.name}</h3>
+                <h3 className="heading3 text-white">{project.name}</h3>
                 <a href="/portfolio">
                   <span className="text-white paragraph font-normal mt-0">{project.cta}</span>
                 </a>

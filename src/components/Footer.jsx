@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="/contact">Contact</a>
           </li>
         </ul>
-        <a href="/portfolio" className="cta text-white mt-[-130px] z-[1] md:mt-0 md:absolute md:right-0 md:w-[255px] lg:right-[13%]">
+        <a href="/portfolio" className="cta text-white mt-[-110px] z-[1] md:mt-0 md:absolute md:right-0 md:w-[255px] lg:right-[13%]">
           See Our Portfolio <img src={arrow} alt="arrow" className="w-6 h-[18px] ml-6" />
         </a>
       </div>
