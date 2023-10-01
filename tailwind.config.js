@@ -9,7 +9,7 @@ export default {
         mediumGrey: "#7D828F",
         lightGrey: "#C8CCD8",
         veryLightGrey: "#EEEFF4",
-        red: "#DF5656",
+        lightRed: "#DF5656",
       },
     },
     fontFamily: {

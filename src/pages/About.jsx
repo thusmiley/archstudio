@@ -34,7 +34,7 @@ const About = () => {
             <span className="hidden md:block text-[150px] leading-[200px] tracking-[-3px] font-spartan text-veryLightGrey font-bold mb-[47px] mt-[-150px] text-right xl:text-[250px] xl:tracking-[-5px] xl:z-10 xl:absolute xl:right-0">
               About
             </span>
-            <img src={line} alt="line" className="hidden xl:block mb-[58px] mt-[110px]" />
+            <img src={line} alt="line" className="hidden md:block mb-[73px] xl:mt-[120px]" />
             <h1 className="heading2 mb-[21px] md:mb-[38px] xl:mb-[49px]">
               Your team of <br />
               professionals

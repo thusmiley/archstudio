@@ -7,31 +7,29 @@
 }
 @screen xl {
   .carousel-indicators li {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-indent: 0;
-  outline: none;
-  border: none;
-  width: 80px;
-  height: 80px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 700;
-  color: #7d828f;
-  background-color: #fff;
-  transition: all 0.25s ease;
-  margin: 0 0 -10px 0;
-  &.active {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 0;
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #7d828f;
+    background-color: #fff;
+    transition: all 0.25s ease;
+    margin: 0 0 -10px 0;
+  }
+  .carousel-indicators li.active {
     background-color: #1b1d23;
     color: #fff;
   }
-  &:hover {
-    background-color: #EEEFF4;
-  color: #7d828f;
-
+  .carousel-indicators li:hover {
+    background-color: #eeeff4;
+    color: #7d828f;
   }
 }
-}
-

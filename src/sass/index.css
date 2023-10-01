@@ -74,6 +74,9 @@
     line-height: 24px;
     @apply font-spartan;
   }
+  #bootstrap-overrides a {
+    @apply text-darkBlue hover:text-darkGrey;
+  }
 }
 @layer components {
   #bootstrap-overrides .cta {
@@ -88,36 +91,37 @@
     text-orientation: mixed;
   }
   input, textarea {
-    background: transparent;
-    border-bottom: 1px solid white;
-    padding-bottom: 16px;
-    margin-bottom: 38px;
-    width: 100%;
+    @apply border-b-[1px] border-darkBlue caret-darkBlue;
+    background: white;
+    padding-bottom: 22px;
+    padding-left: 35px;
     outline: none;
+    width: 100%;
     -webkit-border-radius: 0;
-    padding-left: 14px;
-    caret: white;
+    cursor: pointer;
+  }
+  input {
+    margin-bottom: 43px;
   }
   textarea::-moz-placeholder, input::-moz-placeholder {
-    color: white;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: -0.12px;
+    font-size: 20px;
+    letter-spacing: -0.31px;
   }
   input, textarea, textarea::placeholder, input::placeholder {
-    color: white;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: -0.12px;
+    font-size: 20px;
+    letter-spacing: -0.31px;
   }
-  input::-moz-placeholder, textarea::-moz-placeholder {
-    opacity: 0.6;
-  }
-  input::placeholder, textarea::placeholder {
-    opacity: 0.6;
+  input, textarea {
+    @apply text-darkBlue;
   }
   input:focus, textarea:focus {
-    border-bottom: 1px solid #79C8C7;
+    @apply border-b-[3px];
+  }
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    @apply text-lightGrey;
+  }
+  input::placeholder, textarea::placeholder {
+    @apply text-lightGrey;
   }
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
@@ -125,13 +129,18 @@
   input:-webkit-autofill:active {
     -webkit-transition: background-color 5000000s ease-in-out 0s;
     transition: background-color 5000000s ease-in-out 0s;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: #1B1D23;
     background-clip: content-box !important;
   }
+  #bootstrap-overrides button {
+    outline: none;
+    border: none;
+  }
+  .form-input {
+    position: relative;
+  }
   .error {
-    font-style: italic;
-    margin: -35px 0 17px 14px;
-    font-size: 10px;
+    @apply text-lightRed text-[18px] absolute z-[1] font-bold tracking-[-.28px] transition-all duration-300 ease-in opacity-100 bottom-[58px] right-4;
   }
 }
 @layer utilities {

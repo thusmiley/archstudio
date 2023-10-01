@@ -39,7 +39,7 @@ const HomeHero = () => {
               <p className="paragraph mt-[11px] mb-[90px] md:mb-[41px] xl:max-w-[445px]">
                 Project made for an art museum near Southwest London. Project Paramour is a statement of bold, modern architecture.
               </p>
-              <a href="/portfolio" className="cta">
+              <a href="/portfolio" className="cta text-white">
                 See Our Portfolio <img src={arrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
@@ -54,7 +54,7 @@ const HomeHero = () => {
                 The Seraph Station project challenged us to design a unique station that would transport people through time. The result is a fresh and futuristic model inspired by
                 space stations.
               </p>
-              <a href="/portfolio" className="cta">
+              <a href="/portfolio" className="cta text-white">
                 See Our Portfolio <img src={arrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
@@ -68,7 +68,7 @@ const HomeHero = () => {
               <p className="paragraph mt-[11px] mb-[90px] md:mb-[41px] xl:max-w-[445px]">
                 A sequel theme project for a tower originally built in the 1800s. We achieved this with a striking look of brutal minimalism with modern touches.
               </p>
-              <a href="/portfolio" className="cta">
+              <a href="/portfolio" className="cta text-white">
                 See Our Portfolio <img src={arrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
@@ -83,19 +83,11 @@ const HomeHero = () => {
                 Trinity Bank challenged us to make a concept for a 84 story building located in the middle of a city with a high earthquake frequency. For this project we used
                 curves to blend design and stability to meet our objectives.
               </p>
-              <a href="/portfolio" className="cta">
+              <a href="/portfolio" className="cta text-white">
                 See Our Portfolio <img src={arrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
           </div>
-          {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a> */}
         </div>
       </div>
     </section>
