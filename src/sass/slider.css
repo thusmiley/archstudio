@@ -33,3 +33,42 @@
     color: #7d828f;
   }
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  background-color: #1b1d23;
+  width: 72px;
+  height: 40px;
+  top: 559.5px;
+}
+
+.carousel-control-prev {
+  left: 30%
+}
+
+.carousel-control-next {
+  right: 30%
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus, .carousel-control-prev:hover,
+.carousel-control-next:hover {
+  outline: none;
+  opacity: 1;
+  background-color: #60636D;
+}  
+
+.carousel-control-next-icon {
+  background-image: url("/src/assets/icons/icon-arrow.svg");
+  background-size: 24px 18px;
+  width: 24px;
+  height: 18px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("/src/assets/icons/icon-prev.svg");
+  background-size: 24px 18px;
+  width: 24px;
+  height: 18px;
+}
