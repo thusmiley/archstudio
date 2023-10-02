@@ -14,18 +14,18 @@ const HomeHero = () => {
 
       {/* carousel */}
       <div className="relative md:mx-[13%]">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators xl:flex xl:ml-[-80px] xl:justify-start">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+            <li data-target="#carousel" data-slide-to="0" class="active">
               01
             </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1">
+            <li data-target="#carousel" data-slide-to="1">
               02
             </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2">
+            <li data-target="#carousel" data-slide-to="2">
               03
             </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3">
+            <li data-target="#carousel" data-slide-to="3">
               04
             </li>
           </ol>

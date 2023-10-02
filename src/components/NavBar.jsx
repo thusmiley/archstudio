@@ -16,8 +16,8 @@ const NavBar = () => {
         <nav>
           <ul
             className={`${
-              !toggle ? "hidden" : "flex"
-            } z-10 absolute top-[96px] left-[5%] right-0 bg-veryLightGrey text-darkBlue font-bold flex-col py-10 space-y-[17px] text-[32px] leading-[40px] fadein-left md:flex md:relative md:flex-row md:bg-transparent md:text-mediumGrey md:space-y-0 md:top-0 md:p-0 md:ml-0 md:text-[18px] md:leading-[25px] md:mb-0 md:space-x-[61px]`}
+              !toggle ? "hidden" : "flex fadein-left"
+            } z-10 absolute top-[96px] left-[5%] right-0 bg-veryLightGrey text-darkBlue font-bold flex-col py-10 space-y-[17px] text-[32px] leading-[40px] md:flex md:relative md:flex-row md:bg-transparent md:text-mediumGrey md:space-y-0 md:top-0 md:p-0 md:ml-0 md:text-[18px] md:leading-[25px] md:mb-0 md:space-x-[61px]`}
           >
             <li className="pl-[50px] hover:text-darkGrey md:hover:text-darkBlue md:pl-0">
               <a href="/portfolio">Portfolio</a>

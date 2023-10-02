@@ -167,10 +167,13 @@ const Contact = () => {
                 placeholder="Email"
                 required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                onFocus={() => { setEmailEmpty(true);  setEmailValid(true)}}
+                onFocus={() => {
+                  setEmailEmpty(true);
+                  setEmailValid(true);
+                }}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className={`${(emailEmpty || emailValid) ? "" : "border-lightRed placeholder:text-lightRed/50"}`}
+                className={`${emailEmpty || emailValid ? "" : "border-lightRed placeholder:text-lightRed/50"}`}
               />
               <span className={`${!emailValid ? "block" : "hidden"} error`}>Required</span>
             </div>
@@ -182,12 +185,11 @@ const Contact = () => {
                 cols="30"
                 rows="2"
                 placeholder="Message"
-                className="peer resize-none"
                 required
                 onFocus={() => setMessageEmpty(true)}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className={`${messageEmpty ? "" : "border-lightRed placeholder:text-lightRed/50"}`}
+                className={`${messageEmpty ? "" : "border-lightRed placeholder:text-lightRed/50"} peer resize-none`}
               ></textarea>
               <span className={`${!messageEmpty ? "block" : "hidden"} error`}>Can't be empty</span>
             </div>
