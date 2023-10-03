@@ -14,10 +14,10 @@ const HomeHero = () => {
 
       {/* carousel */}
       <div className="relative md:mx-[13%]">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carousel" className="carousel slide" data-ride="carousel">
           {/* indicators */}
-          <ol class="hidden md:flex carousel-indicators xl:ml-[-80px] xl:justify-start">
-            <li data-target="#carousel" data-slide-to="0" class="active">
+          <ol className="hidden md:flex carousel-indicators xl:ml-[-80px] xl:justify-start">
+            <li data-target="#carousel" data-slide-to="0" className="active">
               01
             </li>
             <li data-target="#carousel" data-slide-to="1">
@@ -31,7 +31,7 @@ const HomeHero = () => {
             </li>
           </ol>
 
-          <div class="carousel-inner">
+          <div className="carousel-inner">
             {/* project paramour */}
             <div className="carousel-item active home-hero-bg-paramour px-[5%] py-[110px] min-w-full w-full h-[560px] md:h-[720px] md:py-[180px] md:px-[58px] xl:px-[190px]">
               <h1 className="heading1">
