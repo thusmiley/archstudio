@@ -26,7 +26,7 @@ Arch Studio website
 - SASS
 - Flexbox
 - CSS Grid
-- Bootstrap carousel
+- Swiperjs carousel
 - Mobile-first workflow
 - Tailwind
 - React (Vite)

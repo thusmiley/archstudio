@@ -29,7 +29,7 @@ const Home = () => {
     <div>
       <HomeHero />
       {/* welcome */}
-      <section className="mt-[112px] mb-[113px] md:mt-[89px] md:mb-[200px] xl:mt-[108px]">
+      <section className="mt-[72px] mb-[113px] md:mt-[89px] md:mb-[200px] xl:mt-[108px]">
         <div className="px-[5%] md:px-[13%]">
           <img src={line} alt="line" className="md:hidden" />
           <span className="hidden md:block text-[150px] leading-[200px] tracking-[-3px] font-spartan text-veryLightGrey font-bold xl:text-[250px] xl:tracking-[-5px] xl:z-10">

@@ -1,0 +1,50 @@
+.mySwiper {
+  position: static;
+}
+
+.swiper-pagination {
+  opacity: 0;
+  visibility: visible;
+}
+@screen xl {
+  .swiper-pagination {
+    opacity: 1;
+    position: absolute;
+    top: reset;
+    text-align: left;
+  }
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0;
+  left: -80px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  color: #7D828F;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "League Spartan", "sans serif";
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
+  opacity: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: #EEEFF4;
+  color: #7D828F;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #1B1D23;
+}/*# sourceMappingURL=carousel.css.map */

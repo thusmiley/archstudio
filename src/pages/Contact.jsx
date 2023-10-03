@@ -99,7 +99,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold">
+              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue">
                 View on Map <img src={greyArrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
@@ -116,7 +116,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline">
+              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue">
                 View on Map <img src={greyArrow} alt="arrow" className="w-6 h-[18px] ml-6" />
               </a>
             </div>
