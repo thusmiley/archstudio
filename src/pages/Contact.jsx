@@ -48,15 +48,25 @@ const Contact = () => {
       <section className="mt-[96px] mb-[76px] md:mt-0 md:mb-[200px] xl:mb-[274px]">
         {/* page tag */}
         <div className="hidden md:flex absolute top-0 left-[5%] flex-col items-center justify-center z-20 ">
-          <img src={verticalLine} alt="vertical line" className="w-[1px] h-[104px] object-contain" />
-          <span className="text-lightGrey paragraph tracking-[18px] tag mt-12">CONTACT</span>
+          <img
+            src={verticalLine}
+            alt="vertical line"
+            className="w-[1px] h-[104px] object-contain"
+          />
+          <span className="text-lightGrey paragraph tracking-[18px] tag mt-12">
+            CONTACT
+          </span>
         </div>
         <div className="md:px-[13%] relative">
           <picture className="mb-[-45px] relative">
             <source media="(max-width: 768px)" srcset={heroMobile} />
             <source media="(max-width: 1280px)" srcset={heroTablet} />
             <source media="(min-width: 1281px)" srcset={heroDesktop} />
-            <img src={heroMobile} alt="team image" className="w-full h-full object-contain xl:w-[635px]" />
+            <img
+              src={heroMobile}
+              alt="team image"
+              className="w-full h-full object-contain xl:w-[635px]"
+            />
             <div className="absolute bg-black/[0.35] w-full h-full top-0 left-0 right-0 bottom-0 xl:w-[635px]" />
           </picture>
 
@@ -64,14 +74,19 @@ const Contact = () => {
             <span className="hidden md:block text-[150px] leading-[200px] tracking-[-3px] font-spartan text-veryLightGrey font-bold mb-[47px] mt-[-150px] text-right xl:text-[250px] xl:tracking-[-5px] xl:z-10 xl:absolute xl:right-0">
               Contact
             </span>
-            <img src={line} alt="line" className="hidden md:block mb-[73px] xl:mt-[120px]" />
+            <img
+              src={line}
+              alt="line"
+              className="hidden md:block mb-[73px] xl:mt-[120px]"
+            />
             <h1 className="heading2 mb-[21px] md:mb-[38px] xl:mb-[49px]">
               Tell us about <br />
               your project
             </h1>
             <p className="paragraph">
-              We’d love to hear more about your project. Please, leave a message below or give us a call. We have two offices, one in Texas and one in Tennessee. If you find
-              yourself nearby, come say hello!
+              We’d love to hear more about your project. Please, leave a message
+              below or give us a call. We have two offices, one in Texas and one
+              in Tennessee. If you find yourself nearby, come say hello!
             </p>
           </div>
         </div>
@@ -91,7 +106,9 @@ const Contact = () => {
           <div className="space-y-10 md:space-y-[43px] xl:flex xl:justify-end xl:items-start xl:space-y-0 xl:space-x-[30px] xl:mt-[73px]">
             <div className="md:flex md:justify-between md:items-end xl:flex-col xl:justify-normal xl:items-start">
               <div>
-                <p className="text-[18px] leading-[35px] text-darkGrey font-bold">Main Office</p>
+                <p className="text-[18px] leading-[35px] text-darkGrey font-bold">
+                  Main Office
+                </p>
                 <p className="paragraph mt-[14px] mb-[43px] md:mb-0 xl:mb-[59px]">
                   Mail : archone@mail.com <br />
                   Address : 1892 Chenoweth Drive TN <br />
@@ -99,14 +116,24 @@ const Contact = () => {
                 </p>
               </div>
 
-              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue">
-                View on Map <img src={greyArrow} alt="arrow" className="w-6 h-[18px] ml-6" />
+              <a
+                href="/contact"
+                className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue"
+              >
+                View on Map{" "}
+                <img
+                  src={greyArrow}
+                  alt="arrow"
+                  className="w-6 h-[18px] ml-6"
+                />
               </a>
             </div>
 
             <div className="md:flex md:justify-between md:items-end xl:flex-col xl:justify-normal xl:items-start">
               <div>
-                <p className="text-[18px] leading-[35px] text-darkGrey font-bold">Office II</p>
+                <p className="text-[18px] leading-[35px] text-darkGrey font-bold">
+                  Office II
+                </p>
                 <p className="paragraph mt-[14px] mb-[43px] md:mb-0 xl:mb-[59px]">
                   Mail : archtwo@mail.com
                   <br />
@@ -116,8 +143,16 @@ const Contact = () => {
                 </p>
               </div>
 
-              <a href="/contact" className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue">
-                View on Map <img src={greyArrow} alt="arrow" className="w-6 h-[18px] ml-6" />
+              <a
+                href="/contact"
+                className="inline-flex items-center text-[18px] leading-[25px] text-darkBlue font-bold hover:underline hover:text-darkBlue"
+              >
+                View on Map{" "}
+                <img
+                  src={greyArrow}
+                  alt="arrow"
+                  className="w-6 h-[18px] ml-6"
+                />
               </a>
             </div>
           </div>
@@ -130,7 +165,11 @@ const Contact = () => {
           <source media="(max-width: 768px)" srcset={mapsMobile} />
           <source media="(max-width: 1280px)" srcset={mapsTablet} />
           <source media="(min-width: 1281px)" srcset={mapsDesktop} />
-          <img src={mapsMobile} alt="map image" className="w-full h-full object-contain" />
+          <img
+            src={mapsMobile}
+            alt="map image"
+            className="w-full h-full object-contain"
+          />
           <div className=" w-full h-full object-contain" />
         </picture>
       </section>
@@ -154,9 +193,15 @@ const Contact = () => {
                 onFocus={() => setNameEmpty(true)}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className={`${nameEmpty ? "" : "border-lightRed placeholder:text-lightRed/50"}`}
+                className={`${
+                  nameEmpty
+                    ? ""
+                    : "border-lightRed placeholder:text-lightRed/50"
+                }`}
               />
-              <span className={`${!nameEmpty ? "block" : "hidden"} error`}>Can't be empty</span>
+              <span className={`${!nameEmpty ? "block" : "hidden"} error`}>
+                Required
+              </span>
             </div>
 
             <div className="form-input">
@@ -173,9 +218,15 @@ const Contact = () => {
                 }}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className={`${emailEmpty || emailValid ? "" : "border-lightRed placeholder:text-lightRed/50"}`}
+                className={`${
+                  emailEmpty || emailValid
+                    ? ""
+                    : "border-lightRed placeholder:text-lightRed/50"
+                }`}
               />
-              <span className={`${!emailValid ? "block" : "hidden"} error`}>Required</span>
+              <span className={`${!emailValid ? "block" : "hidden"} error`}>
+                Required
+              </span>
             </div>
 
             <div className="form-input">
@@ -189,9 +240,15 @@ const Contact = () => {
                 onFocus={() => setMessageEmpty(true)}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className={`${messageEmpty ? "" : "border-lightRed placeholder:text-lightRed/50"} peer resize-none`}
+                className={`${
+                  messageEmpty
+                    ? ""
+                    : "border-lightRed placeholder:text-lightRed/50"
+                } peer resize-none`}
               ></textarea>
-              <span className={`${!messageEmpty ? "block" : "hidden"} error`}>Can't be empty</span>
+              <span className={`${!messageEmpty ? "block" : "hidden"} error`}>
+                Required
+              </span>
             </div>
 
             <button
@@ -202,7 +259,11 @@ const Contact = () => {
               className="bg-darkBlue border-none cursor-pointer group-invalid:bg-darkGrey w-20 h-20 float-right mt-[-10px]"
               onClick={handleSubmit}
             >
-              <img src={arrow} alt="arrow" className="w-full h-[18px] object-contain object-center" />
+              <img
+                src={arrow}
+                alt="arrow"
+                className="w-full h-[18px] object-contain object-center"
+              />
             </button>
           </form>
         </div>
